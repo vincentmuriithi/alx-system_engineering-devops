@@ -1,4 +1,2 @@
 #!/bin/bash
-nm=$(pwd)
-echo "$nm"
-
+echo "$(pwd)"

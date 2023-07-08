@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "new script"
+git commit -m "new bash script"
 git push

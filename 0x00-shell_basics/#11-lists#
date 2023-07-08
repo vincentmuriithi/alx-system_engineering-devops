@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -al "$(pwd)"  ls -al "$OLDPWD" cd /boot ls -al

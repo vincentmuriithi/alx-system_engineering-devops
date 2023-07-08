@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al "$(pwd)"  ls -al "$OLDPWD" cd /boot ls -al
+pt="$(dirname "$(pwd)")" ls -al "$(pwd)"  ls -al "$pt" cd /boot ls -al

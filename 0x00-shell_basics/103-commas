@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | awk '{ORS = (NR%2 == 0) ? ", " : "\n"} 1'
+ls -1a | awk '{print $0","}' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n//g' -e 's/\.,/, .\//g' -e 's/,$/\n/'

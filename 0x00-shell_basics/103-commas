@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | awk '{print $0","}' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n//g' -e 's/\.,/, .\//g' -e 's/,$/\n/'
+ls -1ap | awk '{print $0","}' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n//g' -e 's/\.,/, .\//g' -e 's/,$/\n/'

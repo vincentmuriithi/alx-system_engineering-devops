@@ -1,3 +1,2 @@
 #!/bin/bash
-
-ls -lt | grep "^-" | head -n 10 | awk '{print $9}'
+ls -lt | awk 'NR <= 10 {print $9}'

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This code prints the files in the current directory as a list as the output
+# Author: Eng Vincent.M.Karimi
+for file in  *
+do
+	if [ -f "$file" ] && [[ "$file" != .* ]];
+	then
+		name_after_dash=$(echo "$file"  | cut -d'-' -f2-)
+		echo "$name_after_dash"
+         fi
+ done

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This code modifies the 9th iteration to produce a modified output
+# it uses a while loop, for loop and until have been forbidden in this caes as per instructions
+# Author: Eng Vincent.M.Karimi
+var=0
+while [ $var -le 10 ]
+do
+   if [ $var -eq 9 ]
+then
+	echo "Hi"
+else
+	echo "Best School"
+fi
+((var++))
+done

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This code runs echo command 10 times using the while loop
+var=1
+while [ $var -le 10 ]
+do
+	echo "Best School"
+	((var++))
+done

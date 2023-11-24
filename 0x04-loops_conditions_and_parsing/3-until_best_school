@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This code uses the until loop to print an output 10 times
+# Author: Eng Vincent.M.Karimi
+var=0
+until [ $var -gt 9 ]
+do 
+     echo "Best School"
+     ((var++))
+done

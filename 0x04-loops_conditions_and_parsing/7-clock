@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This code displays time in hours and the minutes in between as output
+# Author: Eng Vincent.M.Karimi
+var=0
+min=0
+while [ $var -le 12 ]
+do
+echo "Hour: $var"
+while [ $min -le 59 ]
+do
+ echo $min
+ ((min++))
+done
+min=0
+((var++))
+done

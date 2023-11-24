@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This code utlises a while loop and elif condition statements to produce
+# a modified output which has fine-tuned output
+# Author: Eng Vincent.M.Karimi
+var=0
+while [ $var -le 9 ]
+do
+   if [ $var -eq 4 ]
+then 
+   echo "bad luck"
+elif [ $var -eq 8 ]
+then
+  echo "good luck"
+else
+	 echo "Best School"
+fi
+((var++))
+done

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This code uses a while loop and a case statement to produce a modified output
+# Author: Eng Vincent.M.Karimi
+var=1
+while [ $var -le 20 ]
+do
+case $var in
+	4)
+		echo -e "$var\nbad luck from China";;
+	9)
+	       echo -e "9\nbad luck from Japan";;
+	17)
+	             echo -e "17\nbad luck from Italy";;
+	*)
+	   echo "$var";;
+esac
+((var++))
+done

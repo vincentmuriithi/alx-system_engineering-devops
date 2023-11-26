@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This code terminates the code in 4-to_infinity_and_beyond
+# Author: Eng Vincent.M.Karimi
+kill "$(pgrep -f 4-to_infinity_and_beyond)"

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This code displays 'To infinity and beyond' indefinitely in a loop
+# Author: Eng Vincent.M.Karimi
+trap 'echo "I am invincible!!!"' SIGTERM
+while true
+do
+      echo "To infinity and beyond"
+      sleep 2
+done

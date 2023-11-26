@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This code kills the process in 4-to_infinity_and_beyond 
+# Author: Eng Vincent.M.Karimi
+pkill -f 7-highlander

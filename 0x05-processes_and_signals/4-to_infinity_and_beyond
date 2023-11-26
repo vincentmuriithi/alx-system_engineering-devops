@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This code runs an infinite loop
+# Author: Eng Vincent.M.Karimi
+while [ true ]
+do 
+      echo "To infinity and beyond"
+      sleep 2
+done

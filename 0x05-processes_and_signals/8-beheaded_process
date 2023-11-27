@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This code kills the 7-highlander
+# Author: Eng Vincent.M.Karimi
+kill -9 "$(pgrep -f 7-highlander)"

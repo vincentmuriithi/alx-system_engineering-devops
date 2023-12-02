@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Author: Eng Vincent.M.Karimi
+nc -l localhost 98

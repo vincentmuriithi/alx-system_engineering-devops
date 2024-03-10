@@ -1,4 +1,4 @@
-# Fixing 500 error when a GET HTTP method is requested to Apache web server
+# Fix 500 error when a GET HTTP method is requested to Apache web server
 
 exec {'fix_wp':
   provider => shell,
